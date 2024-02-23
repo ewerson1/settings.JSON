@@ -3,58 +3,62 @@
 
 
 {
-    "files.autoSave": "onWindowChange",
-    "workbench.statusBar.visible": false,
-    "editor.fontFamily": "Consolas, 'Courier New', monospace",
-    "tabnine.experimentalAutoImports": true,
-    "diffEditor.wordWrap": "on",
-    "workbench.startupEditor": "none",
-    "emmet.includeLanguages": {
-        "javascript": "",
-        "php": ""
-    },
-    "editor.fontSize": 12,
-    "editor.wordWrap": "on",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "editor.linkedEditing": true,
-    "security.workspace.trust.untrustedFiles": "open",
-    "liveServer.settings.donotVerifyTags": true,
-    "explorer.confirmDragAndDrop": false,
-    "editor.fontLigatures": false,
-    "explorer.confirmDelete": false,
-    "window.zoomLevel": -1,
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "cSpell.language": "pt-BR",
-    "workbench.iconTheme": "symbols",
-    "symbols.hidesExplorerArrows": false,
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "breadcrumbs.enabled": false,
-    // barra lateral
-    "workbench.activityBar.location": "hidden",
-    "editor.minimap.enabled": false,
-    "[css]": {
-        "editor.defaultFormatter": "vscode.,css-language-features"
-    },
-    "window.commandCenter": false,
-    "workbench.layoutControl.enabled": false,
-    // font JetBrains
-    "apc.font.family": "JetBrains Mono",
-    "apc.listRow": {
-        "height": 26
-    },
-    "apc.stylesheet": {
-        ".title-label > h2": "display: none",
-        ".editor-actions": "display: none",
-        ".pane-body": "padding: 8px",
-        ".pane-header": "padding: 0 8px",
-    },
-    // bagui pra botar dentro arquivos q depende de outro
-    // "explorer.fileNesting.enabled": true
+  "files.autoSave": "onFocusChange",
+  "workbench.statusBar.visible": false,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "tabnine.experimentalAutoImports": true,
+  "diffEditor.wordWrap": "on",
+  "workbench.startupEditor": "none",
+  "emmet.includeLanguages": {
+    "javascript": "",
+    "php": ""
+  },
 
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font"
+
+  "editor.fontSize": 12,
+  "editor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.linkedEditing": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontLigatures": false,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": -1,
+ 
+  "cSpell.language": "pt-BR",
+  "workbench.iconTheme": "material-icon-theme",
+  "symbols.hidesExplorerArrows": false,
+  "[jsonc]": {},
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "[css]": {},
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+
+  // prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // ....
+  "apc.font.family": "JetBrains Mono",
+  "apc.listRow": {
+    "height": 26
+  },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".pane-body": "padding: 8px",
+    ".pane-header": "padding: 0 8px"
+  },
+  // bagui pra botar dentro arquivos q depende de outro
+  // "explorer.fileNesting.enabled": true
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "workbench.activityBar.location": "hidden",
+  "material-icon-theme.opacity": 1
+}
+"JetBrainsMono Nerd Font"
 }
